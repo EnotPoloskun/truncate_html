@@ -8,6 +8,8 @@ defmodule TruncateHtml.Mixfile do
       elixir: "~> 1.5",
       package: package(),
       start_permanent: Mix.env == :prod,
+      source_url: "https://github.com/EnotPoloskun/truncate_html",
+      description: "Smart html truncate"
     ]
   end
 
@@ -15,7 +17,8 @@ defmodule TruncateHtml.Mixfile do
     [
       maintainers: ["Astraukh Pavel"],
       licenses: ["MIT"],
-      files: ~w(mix.exs README.md lib)
+      files: ~w(mix.exs README.md lib),
+      links: %{"GitHub" => "https://github.com/EnotPoloskun/truncate_html"}
     ]
   end
 end
