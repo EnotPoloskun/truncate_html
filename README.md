@@ -1,6 +1,8 @@
 # TruncateHtml
 
-Smart html truncate functionality. 
+> Smart html truncate functionality.
+
+[![Build Status](https://travis-ci.org/EnotPoloskun/truncate_html.svg?branch=master)](https://travis-ci.org/EnotPoloskun/truncate_html)
 
 Sometimes you need to show user a part of a large html code. For example, you would like to show part of article as a preview. This package will help you to solve this problem. With the help of it you should not care of opening and closing tags to keep html structure correct.
 
@@ -18,7 +20,7 @@ end
 
 ## How to use.
 
-For example, you have a `html` 
+For example, you have a `html`
 ```html
   <div class='content'>
     <div class='first-block'>
@@ -26,7 +28,7 @@ For example, you have a `html`
     </div>
   </div>
 ```
-and you need only first 10 symbols(e.g. as preview). 
+and you need only first 10 symbols(e.g. as preview).
 ```elixir
   TruncateHtml.truncate_html(html, truncate: 10)
 ```
