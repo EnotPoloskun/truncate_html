@@ -2,7 +2,7 @@
 
 Smart html truncate functionality. 
 
-Sometimes you need to show user a part of a large html code. For example, you would like to show part of article as a preview to article. This package will help you to solve this problem. With the help of it you should not care of opening and closing tags to keep html structure correct.
+Sometimes you need to show user a part of a large html code. For example, you would like to show part of article as a preview. This package will help you to solve this problem. With the help of it you should not care of opening and closing tags to keep html structure correct.
 
 ## Installation
 
