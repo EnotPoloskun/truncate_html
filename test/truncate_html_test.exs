@@ -20,4 +20,8 @@ defmodule TruncateHtmlTest do
   test "truncate with script tag" do
     assert TruncateHtml.truncate_html("<div>Test<script>Test</script>Test2 Test3</div>", 5) == "<div>Test<script>Test</script>Test2...</div>"
   end
+
+  test "truncate with html comment" do
+    assert TruncateHtml.truncate_html("<div>Test<!--Test-->Test2 Test3</div>", 5) == "<div>Test<!--Test-->Test2...</div>"
+  end
 end
