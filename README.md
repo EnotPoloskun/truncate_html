@@ -41,7 +41,7 @@ By default it doesn't break words and uses `...` as omission.
 
 You can change this behavior by specifying `break_word` and `omissions` arguments into function. For example
 ```elixir
-  TruncateHtml.truncate_html(html, truncate: 10, break_word: true, omision: "...to be continued")
+  TruncateHtml.truncate_html(html, truncate: 10, break_word: true, omission: "...to be continued")
 ```
 will return
 ```html
